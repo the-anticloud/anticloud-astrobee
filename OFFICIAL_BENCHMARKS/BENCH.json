@@ -1,0 +1,3103 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "ASTROBEE",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\SPACE_AEROTECH\\ASTROBEE\\UPSTREAM_CLONE",
+    "git": {
+      "head": "bf43a42d5f89bf0679e51ab25e7a9b7800313e9c",
+      "url": "https://github.com/nasa/astrobee",
+      "branch": "master",
+      "committed_at": "2025-12-02T09:19:13-08:00"
+    }
+  },
+  "metrics": {
+    "files_total": 2664,
+    "source_files_scanned": 1180,
+    "lines_of_code": 208880,
+    "languages": {
+      ".cc": 473,
+      ".h": 462,
+      ".xml": 169,
+      "(none)": 146,
+      ".md": 142,
+      ".msg": 121,
+      ".py": 115,
+      ".txt": 109,
+      ".test": 100,
+      ".config": 99,
+      ".sh": 83,
+      ".launch": 80,
+      ".json": 70,
+      ".png": 48,
+      ".srv": 39
+    }
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 301,
+    "unique": 30,
+    "by_ecosystem": {
+      "native": 301
+    },
+    "list": [
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "tools/performance_tester/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "tools/localization_rviz_plugins/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "pcl_conversions",
+        "version": "",
+        "source_file": "tools/localization_rviz_plugins/CMakeLists.txt",
+        "raw": "find_package(pcl_conversions"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Qt5",
+        "version": "",
+        "source_file": "tools/localization_rviz_plugins/CMakeLists.txt",
+        "raw": "find_package(Qt5"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "tools/localization_rviz_plugins/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "tools/localization_analysis/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "GTSAM",
+        "version": "",
+        "source_file": "tools/localization_analysis/CMakeLists.txt",
+        "raw": "find_package(GTSAM"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "tools/localization_analysis/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "tools/interactive_marker_teleop/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "tools/interactive_marker_teleop/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "tools/gnc_visualizer/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "tools/gds_helper/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "tools/gds_helper/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Boost",
+        "version": "",
+        "source_file": "tools/gds_helper/CMakeLists.txt",
+        "raw": "find_package(Boost"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "tools/gds_helper/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "tools/gds_helper/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "tools/calibration/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV",
+        "version": "",
+        "source_file": "tools/calibration/CMakeLists.txt",
+        "raw": "find_package(OpenCV"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "tools/calibration/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Ceres",
+        "version": "",
+        "source_file": "tools/calibration/CMakeLists.txt",
+        "raw": "find_package(Ceres"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "tools/calibration/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "tools/bag_processing/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "tools/bag_processing/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "tools/bag_processing/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "simulation/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "gazebo",
+        "version": "",
+        "source_file": "simulation/CMakeLists.txt",
+        "raw": "find_package(gazebo"
+      },
+      {
+        "ecosystem": "native",
+        "name": "JsonCpp",
+        "version": "",
+        "source_file": "simulation/CMakeLists.txt",
+        "raw": "find_package(JsonCpp"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "simulation/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "shared/msg_conversions/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "shared/msg_conversions/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "shared/jsonloader/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "shared/jsonloader/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "JsonCpp",
+        "version": "",
+        "source_file": "shared/jsonloader/CMakeLists.txt",
+        "raw": "find_package(JsonCpp"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "shared/jsonloader/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "shared/ff_util/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "shared/ff_util/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "shared/ff_common/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "shared/ff_common/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "shared/ff_common/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "shared/config_reader/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Luajit20",
+        "version": "",
+        "source_file": "shared/config_reader/CMakeLists.txt",
+        "raw": "find_package(Luajit20"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "mobility/planner_trapezoidal/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "PCL",
+        "version": "",
+        "source_file": "mobility/planner_trapezoidal/CMakeLists.txt",
+        "raw": "find_package(PCL"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "mobility/planner_qp/traj_opt_ros/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Qt5",
+        "version": "",
+        "source_file": "mobility/planner_qp/traj_opt_ros/CMakeLists.txt",
+        "raw": "find_package(Qt5"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "mobility/planner_qp/traj_opt_ros/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "GUROBI",
+        "version": "",
+        "source_file": "mobility/planner_qp/traj_opt_pro/CMakeLists.txt",
+        "raw": "find_package(GUROBI"
+      },
+      {
+        "ecosystem": "native",
+        "name": "IntelMKL",
+        "version": "",
+        "source_file": "mobility/planner_qp/traj_opt_pro/CMakeLists.txt",
+        "raw": "find_package(IntelMKL"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "mobility/planner_qp/traj_opt_pro/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "mobility/planner_qp/traj_opt_pro/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV",
+        "version": "",
+        "source_file": "mobility/planner_qp/traj_opt_pro/CMakeLists.txt",
+        "raw": "find_package(OpenCV"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "mobility/planner_qp/traj_opt_msgs/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "mobility/planner_qp/traj_opt_basic/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "mobility/planner_qp/traj_opt_basic/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Boost",
+        "version": "",
+        "source_file": "mobility/planner_qp/traj_opt_basic/CMakeLists.txt",
+        "raw": "find_package(Boost"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV",
+        "version": "",
+        "source_file": "mobility/planner_qp/planner_qp/CMakeLists.txt",
+        "raw": "find_package(OpenCV"
+      },
+      {
+        "ecosystem": "native",
+        "name": "JPS3D",
+        "version": "",
+        "source_file": "mobility/planner_qp/planner_qp/CMakeLists.txt",
+        "raw": "find_package(JPS3D"
+      },
+      {
+        "ecosystem": "native",
+        "name": "DecompUtil",
+        "version": "",
+        "source_file": "mobility/planner_qp/planner_qp/CMakeLists.txt",
+        "raw": "find_package(DecompUtil"
+      },
+      {
+        "ecosystem": "native",
+        "name": "PCL",
+        "version": "",
+        "source_file": "mobility/planner_qp/planner_qp/CMakeLists.txt",
+        "raw": "find_package(PCL"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "mobility/planner_qp/planner_qp/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "mobility/mobility/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "mobility/mapper/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Octomap",
+        "version": "",
+        "source_file": "mobility/mapper/CMakeLists.txt",
+        "raw": "find_package(Octomap"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "mobility/mapper/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "PCL",
+        "version": "",
+        "source_file": "mobility/mapper/CMakeLists.txt",
+        "raw": "find_package(PCL"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "mobility/mapper/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "mobility/framestore/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "mobility/choreographer/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "mobility/choreographer/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "management/sys_monitor/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "management/sys_monitor/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "management/log_monitor/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "management/image_sampler/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV",
+        "version": "",
+        "source_file": "management/image_sampler/CMakeLists.txt",
+        "raw": "find_package(OpenCV"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "management/executive/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "cmake_modules",
+        "version": "",
+        "source_file": "management/executive/CMakeLists.txt",
+        "raw": "find_package(cmake_modules"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Boost",
+        "version": "",
+        "source_file": "management/executive/CMakeLists.txt",
+        "raw": "find_package(Boost"
+      },
+      {
+        "ecosystem": "native",
+        "name": "JsonCpp",
+        "version": "",
+        "source_file": "management/executive/CMakeLists.txt",
+        "raw": "find_package(JsonCpp"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "management/executive/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "management/disk_monitor/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "management/disk_monitor/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "management/data_bagger/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "management/cpu_mem_monitor/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "management/cpu_mem_monitor/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "management/access_control/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "management/access_control/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/vive_localization/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/vive_localization/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV",
+        "version": "",
+        "source_file": "localization/vive_localization/CMakeLists.txt",
+        "raw": "find_package(OpenCV"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Ceres",
+        "version": "",
+        "source_file": "localization/vive_localization/CMakeLists.txt",
+        "raw": "find_package(Ceres"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/vision_common/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "GTSAM",
+        "version": "",
+        "source_file": "localization/vision_common/CMakeLists.txt",
+        "raw": "find_package(GTSAM"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV4WithXFeatures",
+        "version": "",
+        "source_file": "localization/vision_common/CMakeLists.txt",
+        "raw": "find_package(OpenCV4WithXFeatures"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/vision_common/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/vision_common/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "GTSAM",
+        "version": "",
+        "source_file": "localization/tutorial_examples/CMakeLists.txt",
+        "raw": "find_package(GTSAM"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/tutorial_examples/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/tutorial_examples/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV4WithXFeatures",
+        "version": "",
+        "source_file": "localization/tutorial_examples/CMakeLists.txt",
+        "raw": "find_package(OpenCV4WithXFeatures"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/tutorial_examples/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/sparse_mapping/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "cmake_modules",
+        "version": "",
+        "source_file": "localization/sparse_mapping/CMakeLists.txt",
+        "raw": "find_package(cmake_modules"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/sparse_mapping/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenMVG",
+        "version": "",
+        "source_file": "localization/sparse_mapping/CMakeLists.txt",
+        "raw": "find_package(OpenMVG"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Protobuf",
+        "version": "",
+        "source_file": "localization/sparse_mapping/CMakeLists.txt",
+        "raw": "find_package(Protobuf"
+      },
+      {
+        "ecosystem": "native",
+        "name": "dbow2",
+        "version": "",
+        "source_file": "localization/sparse_mapping/CMakeLists.txt",
+        "raw": "find_package(dbow2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV4WithXFeatures",
+        "version": "",
+        "source_file": "localization/sparse_mapping/CMakeLists.txt",
+        "raw": "find_package(OpenCV4WithXFeatures"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/sparse_mapping/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/sliding_window_graph_optimizer/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "GTSAM",
+        "version": "",
+        "source_file": "localization/sliding_window_graph_optimizer/CMakeLists.txt",
+        "raw": "find_package(GTSAM"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/sliding_window_graph_optimizer/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/sliding_window_graph_optimizer/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "GTSAM",
+        "version": "",
+        "source_file": "localization/ros_pose_extrapolator/CMakeLists.txt",
+        "raw": "find_package(GTSAM"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/ros_pose_extrapolator/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/ros_pose_extrapolator/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/ros_pose_extrapolator/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/ros_graph_vio/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/ros_graph_vio/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/ros_graph_vio/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/ros_graph_localizer/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/ros_graph_localizer/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/ros_graph_localizer/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/point_cloud_common/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/point_cloud_common/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Ceres",
+        "version": "",
+        "source_file": "localization/point_cloud_common/CMakeLists.txt",
+        "raw": "find_package(Ceres"
+      },
+      {
+        "ecosystem": "native",
+        "name": "PCL",
+        "version": "",
+        "source_file": "localization/point_cloud_common/CMakeLists.txt",
+        "raw": "find_package(PCL"
+      },
+      {
+        "ecosystem": "native",
+        "name": "pcl_conversions",
+        "version": "",
+        "source_file": "localization/point_cloud_common/CMakeLists.txt",
+        "raw": "find_package(pcl_conversions"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/point_cloud_common/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/parameter_reader/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "GTSAM",
+        "version": "",
+        "source_file": "localization/parameter_reader/CMakeLists.txt",
+        "raw": "find_package(GTSAM"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/parameter_reader/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/parameter_reader/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/optimizers/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "GTSAM",
+        "version": "",
+        "source_file": "localization/optimizers/CMakeLists.txt",
+        "raw": "find_package(GTSAM"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/optimizers/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/optimizers/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/optimization_common/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/optimization_common/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Ceres",
+        "version": "",
+        "source_file": "localization/optimization_common/CMakeLists.txt",
+        "raw": "find_package(Ceres"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/optimization_common/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/optimization_common/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/node_adders/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "GTSAM",
+        "version": "",
+        "source_file": "localization/node_adders/CMakeLists.txt",
+        "raw": "find_package(GTSAM"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/node_adders/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/node_adders/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Boost",
+        "version": "",
+        "source_file": "localization/nodes/CMakeLists.txt",
+        "raw": "find_package(Boost"
+      },
+      {
+        "ecosystem": "native",
+        "name": "GTSAM",
+        "version": "",
+        "source_file": "localization/nodes/CMakeLists.txt",
+        "raw": "find_package(GTSAM"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/nodes/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/nodes/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/nodes/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/marker_tracking/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "cmake_modules",
+        "version": "",
+        "source_file": "localization/marker_tracking/CMakeLists.txt",
+        "raw": "find_package(cmake_modules"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/marker_tracking/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "PCL",
+        "version": "",
+        "source_file": "localization/marker_tracking/CMakeLists.txt",
+        "raw": "find_package(PCL"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV",
+        "version": "",
+        "source_file": "localization/marker_tracking/CMakeLists.txt",
+        "raw": "find_package(OpenCV"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/marker_tracking/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/localization_node/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenMVG",
+        "version": "",
+        "source_file": "localization/localization_node/CMakeLists.txt",
+        "raw": "find_package(OpenMVG"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/localization_node/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV",
+        "version": "",
+        "source_file": "localization/localization_node/CMakeLists.txt",
+        "raw": "find_package(OpenCV"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/localization_measurements/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "PCL",
+        "version": "",
+        "source_file": "localization/localization_measurements/CMakeLists.txt",
+        "raw": "find_package(PCL"
+      },
+      {
+        "ecosystem": "native",
+        "name": "pcl_conversions",
+        "version": "",
+        "source_file": "localization/localization_measurements/CMakeLists.txt",
+        "raw": "find_package(pcl_conversions"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV",
+        "version": "",
+        "source_file": "localization/localization_measurements/CMakeLists.txt",
+        "raw": "find_package(OpenCV"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/localization_measurements/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/localization_measurements/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/localization_measurements/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/localization_measurements/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/localization_manager/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/localization_common/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "GTSAM",
+        "version": "",
+        "source_file": "localization/localization_common/CMakeLists.txt",
+        "raw": "find_package(GTSAM"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/localization_common/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/localization_common/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/lk_optical_flow/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/interest_point/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "cmake_modules",
+        "version": "",
+        "source_file": "localization/interest_point/CMakeLists.txt",
+        "raw": "find_package(cmake_modules"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/interest_point/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenMVG",
+        "version": "",
+        "source_file": "localization/interest_point/CMakeLists.txt",
+        "raw": "find_package(OpenMVG"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV4WithXFeatures",
+        "version": "",
+        "source_file": "localization/interest_point/CMakeLists.txt",
+        "raw": "find_package(OpenCV4WithXFeatures"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/interest_point/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/imu_integration/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/imu_integration/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/imu_integration/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/handrail_detect/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV",
+        "version": "",
+        "source_file": "localization/handrail_detect/CMakeLists.txt",
+        "raw": "find_package(OpenCV"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/ground_truth_localizer/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/ground_truth_localizer/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "localization/ground_truth_localizer/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "GTSAM",
+        "version": "",
+        "source_file": "localization/graph_vio/CMakeLists.txt",
+        "raw": "find_package(GTSAM"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/graph_vio/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/graph_vio/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV4WithXFeatures",
+        "version": "",
+        "source_file": "localization/graph_vio/CMakeLists.txt",
+        "raw": "find_package(OpenCV4WithXFeatures"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/graph_optimizer/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "GTSAM",
+        "version": "",
+        "source_file": "localization/graph_optimizer/CMakeLists.txt",
+        "raw": "find_package(GTSAM"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/graph_optimizer/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/graph_optimizer/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "GTSAM",
+        "version": "",
+        "source_file": "localization/graph_localizer/CMakeLists.txt",
+        "raw": "find_package(GTSAM"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/graph_localizer/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/graph_localizer/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV",
+        "version": "",
+        "source_file": "localization/graph_localizer/CMakeLists.txt",
+        "raw": "find_package(OpenCV"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/graph_factors/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "GTSAM",
+        "version": "",
+        "source_file": "localization/graph_factors/CMakeLists.txt",
+        "raw": "find_package(GTSAM"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/graph_factors/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/graph_factors/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/factor_adders/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "GTSAM",
+        "version": "",
+        "source_file": "localization/factor_adders/CMakeLists.txt",
+        "raw": "find_package(GTSAM"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/factor_adders/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/factor_adders/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/depth_odometry/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV4WithXFeatures",
+        "version": "",
+        "source_file": "localization/depth_odometry/CMakeLists.txt",
+        "raw": "find_package(OpenCV4WithXFeatures"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/depth_odometry/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Ceres",
+        "version": "",
+        "source_file": "localization/depth_odometry/CMakeLists.txt",
+        "raw": "find_package(Ceres"
+      },
+      {
+        "ecosystem": "native",
+        "name": "PCL",
+        "version": "",
+        "source_file": "localization/depth_odometry/CMakeLists.txt",
+        "raw": "find_package(PCL"
+      },
+      {
+        "ecosystem": "native",
+        "name": "pcl_conversions",
+        "version": "",
+        "source_file": "localization/depth_odometry/CMakeLists.txt",
+        "raw": "find_package(pcl_conversions"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/depth_odometry/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "localization/camera/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "cmake_modules",
+        "version": "",
+        "source_file": "localization/camera/CMakeLists.txt",
+        "raw": "find_package(cmake_modules"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Boost",
+        "version": "",
+        "source_file": "localization/camera/CMakeLists.txt",
+        "raw": "find_package(Boost"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "localization/camera/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV",
+        "version": "",
+        "source_file": "localization/camera/CMakeLists.txt",
+        "raw": "find_package(OpenCV"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "localization/camera/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "hardware/vive/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "cmake_modules",
+        "version": "",
+        "source_file": "hardware/vive/CMakeLists.txt",
+        "raw": "find_package(cmake_modules"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "hardware/temp_monitor/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "hardware/speed_cam/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "hardware/speed_cam/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "hardware/smart_dock/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Boost",
+        "version": "",
+        "source_file": "hardware/smart_dock/CMakeLists.txt",
+        "raw": "find_package(Boost"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Qt5Xml",
+        "version": "",
+        "source_file": "hardware/smart_dock/CMakeLists.txt",
+        "raw": "find_package(Qt5Xml"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Qt4",
+        "version": "",
+        "source_file": "hardware/smart_dock/CMakeLists.txt",
+        "raw": "find_package(Qt4"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Miro",
+        "version": "",
+        "source_file": "hardware/smart_dock/CMakeLists.txt",
+        "raw": "find_package(Miro"
+      },
+      {
+        "ecosystem": "native",
+        "name": "RtiDds",
+        "version": "",
+        "source_file": "hardware/smart_dock/CMakeLists.txt",
+        "raw": "find_package(RtiDds"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Soracore",
+        "version": "",
+        "source_file": "hardware/smart_dock/CMakeLists.txt",
+        "raw": "find_package(Soracore"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "hardware/smart_dock/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "hardware/signal_lights/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "hardware/pmc_actuator/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "hardware/pico_driver/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "royale",
+        "version": "",
+        "source_file": "hardware/pico_driver/CMakeLists.txt",
+        "raw": "find_package(royale"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "hardware/pico_driver/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "hardware/pico_driver/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "hardware/perching_arm/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "hardware/laser/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "hardware/is_camera/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV",
+        "version": "",
+        "source_file": "hardware/is_camera/CMakeLists.txt",
+        "raw": "find_package(OpenCV"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "hardware/i2c/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "hardware/gpio/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "hardware/flashlight/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "hardware/ff_serial/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "hardware/fam_cmd_i2c/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "hardware/eps_driver/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "hardware/epson_imu/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "gnc/pmc/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "gnc/pmc/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "gnc/fam/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "gnc/fam/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "gnc/ctl/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "gnc/ctl/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "rostest",
+        "version": "",
+        "source_file": "gnc/ctl/CMakeLists.txt",
+        "raw": "find_package(rostest"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "description/description/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "communications/ground_dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "communications/ground_dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Boost",
+        "version": "",
+        "source_file": "communications/ground_dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(Boost"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Qt5Xml",
+        "version": "",
+        "source_file": "communications/ground_dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(Qt5Xml"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Qt4",
+        "version": "",
+        "source_file": "communications/ground_dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(Qt4"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Miro",
+        "version": "",
+        "source_file": "communications/ground_dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(Miro"
+      },
+      {
+        "ecosystem": "native",
+        "name": "RtiDds",
+        "version": "",
+        "source_file": "communications/ground_dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(RtiDds"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Soracore",
+        "version": "",
+        "source_file": "communications/ground_dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(Soracore"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "communications/ground_dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "communications/ff_msgs/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "communications/ff_hw_msgs/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "communications/dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "communications/dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Boost",
+        "version": "",
+        "source_file": "communications/dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(Boost"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Qt5Xml",
+        "version": "",
+        "source_file": "communications/dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(Qt5Xml"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Qt4",
+        "version": "",
+        "source_file": "communications/dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(Qt4"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Miro",
+        "version": "",
+        "source_file": "communications/dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(Miro"
+      },
+      {
+        "ecosystem": "native",
+        "name": "RtiDds",
+        "version": "",
+        "source_file": "communications/dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(RtiDds"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Soracore",
+        "version": "",
+        "source_file": "communications/dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(Soracore"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "communications/dds_ros_bridge/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "communications/dds_msgs/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Qt5Xml",
+        "version": "",
+        "source_file": "communications/dds_msgs/CMakeLists.txt",
+        "raw": "find_package(Qt5Xml"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Qt4",
+        "version": "",
+        "source_file": "communications/dds_msgs/CMakeLists.txt",
+        "raw": "find_package(Qt4"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Miro",
+        "version": "",
+        "source_file": "communications/dds_msgs/CMakeLists.txt",
+        "raw": "find_package(Miro"
+      },
+      {
+        "ecosystem": "native",
+        "name": "RtiDds",
+        "version": "",
+        "source_file": "communications/dds_msgs/CMakeLists.txt",
+        "raw": "find_package(RtiDds"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Soracore",
+        "version": "",
+        "source_file": "communications/dds_msgs/CMakeLists.txt",
+        "raw": "find_package(Soracore"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "communications/dds_msgs/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "communications/comms_bridge/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Eigen3",
+        "version": "",
+        "source_file": "communications/comms_bridge/CMakeLists.txt",
+        "raw": "find_package(Eigen3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Boost",
+        "version": "",
+        "source_file": "communications/comms_bridge/CMakeLists.txt",
+        "raw": "find_package(Boost"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Qt5Xml",
+        "version": "",
+        "source_file": "communications/comms_bridge/CMakeLists.txt",
+        "raw": "find_package(Qt5Xml"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Qt4",
+        "version": "",
+        "source_file": "communications/comms_bridge/CMakeLists.txt",
+        "raw": "find_package(Qt4"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Miro",
+        "version": "",
+        "source_file": "communications/comms_bridge/CMakeLists.txt",
+        "raw": "find_package(Miro"
+      },
+      {
+        "ecosystem": "native",
+        "name": "RtiDds",
+        "version": "",
+        "source_file": "communications/comms_bridge/CMakeLists.txt",
+        "raw": "find_package(RtiDds"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Soracore",
+        "version": "",
+        "source_file": "communications/comms_bridge/CMakeLists.txt",
+        "raw": "find_package(Soracore"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin",
+        "version": "",
+        "source_file": "communications/comms_bridge/CMakeLists.txt",
+        "raw": "find_package(catkin"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "behaviors/states/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "behaviors/perch/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "behaviors/light_flow/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "behaviors/dock/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "behaviors/arm/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "catkin2",
+        "version": "",
+        "source_file": "astrobee/CMakeLists.txt",
+        "raw": "find_package(catkin2"
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 1292,
+    "files_with_findings": 1116,
+    "severity": {
+      "high": 26,
+      "medium": 7,
+      "low": 1259
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 6,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "management/access_control/src/access_control.cc",
+            "line": 74,
+            "cwe": "CWE-338",
+            "snippet": "static std::mt19937 mt(static_cast<uint32_t>(rd()));"
+          },
+          {
+            "severity": "medium",
+            "file": "localization/vision_common/src/pose_estimation.cc",
+            "line": 40,
+            "cwe": "CWE-338",
+            "snippet": "static std::mt19937 gen(rd());"
+          },
+          {
+            "severity": "medium",
+            "file": "localization/sparse_mapping/src/ransac.cc",
+            "line": 34,
+            "cwe": "CWE-338",
+            "snippet": "std::mt19937 * generator, std::vector<int> * values) {"
+          },
+          {
+            "severity": "medium",
+            "file": "localization/sparse_mapping/src/reprojection.cc",
+            "line": 291,
+            "cwe": "CWE-338",
+            "snippet": "static std::mt19937 generator;  // should be thread_local for thread safe, gcc 4.6 doesn't support"
+          },
+          {
+            "severity": "medium",
+            "file": "localization/sparse_mapping/include/sparse_mapping/ransac.h",
+            "line": 36,
+            "cwe": "CWE-338",
+            "snippet": "std::mt19937 * generator, std::vector<int> * values);"
+          },
+          {
+            "severity": "medium",
+            "file": "localization/localization_common/src/test_utilities.cc",
+            "line": 36,
+            "cwe": "CWE-338",
+            "snippet": "std::mt19937 rng(dev());"
+          }
+        ]
+      },
+      "A03-Injection": {
+        "count": 27,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "tools/localization_analysis/scripts/bag_sweeper.py",
+            "line": 151,
+            "cwe": "CWE-78",
+            "snippet": "os.system(run_command)"
+          },
+          {
+            "severity": "high",
+            "file": "tools/localization_analysis/scripts/depth_odometry_parameter_sweep.py",
+            "line": 92,
+            "cwe": "CWE-78",
+            "snippet": "os.system(run_command)"
+          },
+          {
+            "severity": "high",
+            "file": "tools/localization_analysis/scripts/parameter_sweeper.py",
+            "line": 123,
+            "cwe": "CWE-78",
+            "snippet": "os.system(run_command)"
+          },
+          {
+            "severity": "high",
+            "file": "tools/gnc_visualizer/scripts/visualizer.py",
+            "line": 399,
+            "cwe": "CWE-78",
+            "snippet": "shell=True,"
+          },
+          {
+            "severity": "high",
+            "file": "tools/gnc_visualizer/scripts/communications/ros_support.py",
+            "line": 66,
+            "cwe": "CWE-78",
+            "snippet": "shell=True,"
+          },
+          {
+            "severity": "high",
+            "file": "tools/calibration/scripts/calibrate_intrinsics_and_save_results.py",
+            "line": 97,
+            "cwe": "CWE-78",
+            "snippet": "calibration_command, shell=True, stdout=output_file, stderr=output_file"
+          },
+          {
+            "severity": "high",
+            "file": "tools/bag_processing/test/test_fix_all.py",
+            "line": 30,
+            "cwe": "CWE-78",
+            "snippet": "ret = os.system(cmd)"
+          },
+          {
+            "severity": "high",
+            "file": "tools/bag_processing/scripts/rosbag_fix_all.py",
+            "line": 37,
+            "cwe": "CWE-78",
+            "snippet": "ret = os.system(cmd)"
+          },
+          {
+            "severity": "high",
+            "file": "tools/bag_processing/scripts/rosbag_rewrite_types.py",
+            "line": 65,
+            "cwe": "CWE-78",
+            "snippet": "ret = os.system(cmd)"
+          },
+          {
+            "severity": "medium",
+            "file": "tools/bag_processing/scripts/rosbag_splice.py",
+            "line": 58,
+            "cwe": "CWE-89",
+            "snippet": "+ \"{0:.2f}\".format(starting_splice_percent * 100)\r\n            + \"% to \""
+          },
+          {
+            "severity": "high",
+            "file": "tools/bag_processing/scripts/rosbag_trim.py",
+            "line": 49,
+            "cwe": "CWE-78",
+            "snippet": "os.system(run_command)"
+          },
+          {
+            "severity": "high",
+            "file": "scripts/debug/show_avg_features.py",
+            "line": 132,
+            "cwe": "CWE-95",
+            "snippet": "eval(input(\" > Press any key to continue or Ctrl + C the program\"))"
+          },
+          {
+            "severity": "high",
+            "file": "scripts/calibrate/extrinsics_calibrate.py",
+            "line": 40,
+            "cwe": "CWE-502",
+            "snippet": "d = yaml.load(f)"
+          },
+          {
+            "severity": "high",
+            "file": "scripts/calibrate/intrinsics_calibrate.py",
+            "line": 42,
+            "cwe": "CWE-502",
+            "snippet": "d = yaml.load(f)"
+          },
+          {
+            "severity": "high",
+            "file": "mobility/planner_qp/traj_opt_pro/include/traj_opt_pro/nonlinear_solver.h",
+            "line": 108,
+            "cwe": "CWE-120",
+            "snippet": "virtual ETV hessian() = 0;         // gets  (u \\nabla^2 g(x))"
+          },
+          {
+            "severity": "high",
+            "file": "management/cpu_mem_monitor/src/cpu_mem_monitor.cc",
+            "line": 338,
+            "cwe": "CWE-78",
+            "snippet": "FILE* pipe = popen((\"rosnode info \" + it->first +"
+          },
+          {
+            "severity": "high",
+            "file": "localization/localization_common/scripts/localization_common/utilities.py",
+            "line": 103,
+            "cwe": "CWE-78",
+            "snippet": "shell=True,"
+          },
+          {
+            "severity": "high",
+            "file": "localization/graph_factors/include/graph_factors/point_to_line_factor.h",
+            "line": 52,
+            "cwe": "CWE-95",
+            "snippet": "*H = H->topRows(2).eval();"
+          },
+          {
+            "severity": "high",
+            "file": "hardware/vive/src/vive_driver/vive_data_ootx.c",
+            "line": 72,
+            "cwe": "CWE-120",
+            "snippet": "sprintf(lh->serial, \"%u\", *(uint32_t*)(data + 0x02));"
+          },
+          {
+            "severity": "high",
+            "file": "hardware/vive/src/vive_driver/vive_usb.c",
+            "line": 387,
+            "cwe": "CWE-120",
+            "snippet": "sprintf(fstname, \"%s.json\", tracker->serial);"
+          },
+          {
+            "severity": "high",
+            "file": "doc/style/doc_version_select.js",
+            "line": 27,
+            "cwe": "CWE-95",
+            "snippet": "var match = version_regex.exec(window.location.pathname);"
+          },
+          {
+            "severity": "high",
+            "file": "doc/style/freeflyer.js",
+            "line": 1,
+            "cwe": "CWE-78",
+            "snippet": "$( document ).ready(function() {"
+          },
+          {
+            "severity": "high",
+            "file": "doc/scripts/puml2dox.py",
+            "line": 67,
+            "cwe": "CWE-78",
+            "snippet": "# os.system('java -jar %s -tpng -output %s %s' % \\"
+          },
+          {
+            "severity": "high",
+            "file": "communications/ground_dds_ros_bridge/src/ground_dds_ros_bridge.cc",
+            "line": 215,
+            "cwe": "CWE-120",
+            "snippet": "std::strcpy(fake_argv[0], participant_name_.c_str());  // NOLINT"
+          },
+          {
+            "severity": "high",
+            "file": "communications/dds_ros_bridge/src/astrobee_astrobee_bridge.cc",
+            "line": 93,
+            "cwe": "CWE-120",
+            "snippet": "std::strcpy(fake_argv[0], participant_name_.c_str());  // NOLINT"
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 154,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/depth_odometry_display.cc",
+            "line": 125,
+            "cwe": "CWE-",
+            "snippet": "// TODO(rsoussan): Move this to vision_common?"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/imu_augmentor_display.cc",
+            "line": 97,
+            "cwe": "CWE-",
+            "snippet": "// TODO(rsoussan): add ang vel visual?"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/localization_graph_display.cc",
+            "line": 146,
+            "cwe": "CWE-",
+            "snippet": "// TODO(rsoussan): get timestamp from somewhere else?"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/localization_graph_display.h",
+            "line": 53,
+            "cwe": "CWE-",
+            "snippet": "// TODO(rsoussan): put these somewhere else!"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/localization_graph_panel.cc",
+            "line": 62,
+            "cwe": "CWE-",
+            "snippet": "// TODO(rsoussan): unify this with version from graph utilities"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/slider_property.cc",
+            "line": 40,
+            "cwe": "CWE-",
+            "snippet": "// TODO(rsoussan): Better way to handle this? Create slider in constructor?"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/sparse_mapping_display.cc",
+            "line": 40,
+            "cwe": "CWE-",
+            "snippet": "// TODO(rsoussan): Config reader fails to load map string unless a file is added (doesn't matter which one)."
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/sparse_mapping_display.h",
+            "line": 52,
+            "cwe": "CWE-",
+            "snippet": "// TODO(rosussan): Remove publishing and use point_cloud_common from rviz/default_plugins"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/utilities.cc",
+            "line": 73,
+            "cwe": "CWE-",
+            "snippet": "// TODO(rsoussan): is this correct bias to use???"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/tools/convert_depth_msg.cc",
+            "line": 37,
+            "cwe": "CWE-",
+            "snippet": "// TODO(rsoussan): Is this necessary?"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/test/test_offline_replay_parameter_reader.cc",
+            "line": 97,
+            "cwe": "CWE-",
+            "snippet": "// TODO(rsoussan): Check nav_cam_params"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/src/bag_imu_filterer.cc",
+            "line": 39,
+            "cwe": "CWE-",
+            "snippet": "// TODO(rsoussan): Allow for different accel and ang vel filters"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/src/map_matcher.cc",
+            "line": 58,
+            "cwe": "CWE-",
+            "snippet": "// TODO(rsoussan): Use common code with graph_bag"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/src/offline_replay.cc",
+            "line": 67,
+            "cwe": "CWE-",
+            "snippet": "// TODO(rsoussan): clean this up"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/src/sparse_mapping_pose_adder.cc",
+            "line": 43,
+            "cwe": "CWE-",
+            "snippet": "// TODO(rsoussan): put this in loc common"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/scripts/depth_odometry_results_plotter.py",
+            "line": 79,
+            "cwe": "CWE-",
+            "snippet": "# The csv file contains results in (TODO: define format)."
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/scripts/imu_analyzer.py",
+            "line": 53,
+            "cwe": "CWE-",
+            "snippet": "# TODO(rsoussan): Why is this necessary?"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/scripts/loc_results_plotter.py",
+            "line": 227,
+            "cwe": "CWE-",
+            "snippet": "# The csv file contains results in (TODO: define format)."
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/scripts/message_conversions.py",
+            "line": 155,
+            "cwe": "CWE-",
+            "snippet": "# TODO: load all combined nav states???"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/scripts/rmse_calculators.py",
+            "line": 163,
+            "cwe": "CWE-",
+            "snippet": "#        # TODO(rsoussan): Add relative calculations for orientations"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/scripts/vio_results_plotter.py",
+            "line": 253,
+            "cwe": "CWE-",
+            "snippet": "# The csv file contains results in (TODO: define format)."
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/include/localization_analysis/depth_odometry_adder.h",
+            "line": 24,
+            "cwe": "CWE-",
+            "snippet": "// TODO(rsoussan): There is a linking error on melodic for conflicting declarations of lz4"
+          },
+          {
+            "severity": "low",
+            "file": "tools/interactive_marker_teleop/src/interactive_marker_teleop.cpp",
+            "line": 41,
+            "cwe": "CWE-",
+            "snippet": "// TODO(jdekarske) would be cool to add a new marker for each station menu_handler_.insert(\"Remove from plan\","
+          },
+          {
+            "severity": "low",
+            "file": "tools/gnc_visualizer/scripts/visualizer.py",
+            "line": 868,
+            "cwe": "CWE-",
+            "snippet": "# TODO(rgarciar): Catch errors from Threads started in com_manager"
+          },
+          {
+            "severity": "low",
+            "file": "tools/gds_helper/src/gds_simulator.py",
+            "line": 98,
+            "cwe": "CWE-",
+            "snippet": "# TODO Check portability"
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "scripts/setup/debians/rosjava/build_build-tools.sh",
+            "line": 21,
+            "cwe": "CWE-1104",
+            "snippet": "# you may need to fix it like this: pip3 install setuptools==45.2.0 && pip3 install -U testresources"
+          }
+        ]
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 1104,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "tools/performance_tester/tools/test_plan.cc",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/performance_tester/scripts/analyse_bag.py",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/depth_odometry_display.cc",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/depth_odometry_display.h",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/imu_augmentor_display.cc",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/imu_augmentor_display.h",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/localization_graph_display.cc",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/localization_graph_display.h",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/localization_graph_panel.cc",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/localization_graph_panel.h",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/pose_display.cc",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/pose_display.h",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/slider_property.cc",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/slider_property.h",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/sparse_mapping_display.cc",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/sparse_mapping_display.h",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/utilities.cc",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_rviz_plugins/src/utilities.h",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/tools/convert_depth_msg.cc",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/tools/run_bag_imu_filterer.cc",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/tools/run_depth_odometry_adder.cc",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/tools/run_imu_bias_extrapolator.cc",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/tools/run_map_matcher.cc",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/tools/run_offline_replay.cc",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "tools/localization_analysis/tools/run_sparse_mapping_pose_adder.cc",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 2,
+    "files_with_findings": 2,
+    "severity": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 2,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "mobility/mapper/src/visualization_functions.cc",
+            "line": 40,
+            "cwe": "CWE-1336",
+            "snippet": "void DeleteMarkersTemplate(const std::string &frame_id,"
+          },
+          {
+            "severity": "medium",
+            "file": "mobility/mapper/include/mapper/visualization_functions.h",
+            "line": 71,
+            "cwe": "CWE-1336",
+            "snippet": "void DeleteMarkersTemplate(  // Delete all markers"
+          }
+        ]
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:21d0f8fa-8736-5950-a1ac-9f2083506a22",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-06T06:35:24Z",
+      "component": {
+        "type": "application",
+        "name": "ASTROBEE",
+        "version": "bf43a42d5f89",
+        "bom-ref": "pkg:generic/anticloud/ASTROBEE@bf43a42d5f89",
+        "purl": "pkg:generic/anticloud/ASTROBEE@bf43a42d5f89",
+        "licenses": [
+          {
+            "license": {
+              "id": "Apache-2.0"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "bf43a42d5f89bf0679e51ab25e7a9b7800313e9c"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/nasa/astrobee"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "catkin2",
+        "version": "unspecified",
+        "purl": "pkg:generic/catkin2",
+        "bom-ref": "native/catkin2@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "catkin",
+        "version": "unspecified",
+        "purl": "pkg:generic/catkin",
+        "bom-ref": "native/catkin@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "pcl_conversions",
+        "version": "unspecified",
+        "purl": "pkg:generic/pcl_conversions",
+        "bom-ref": "native/pcl_conversions@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Qt5",
+        "version": "unspecified",
+        "purl": "pkg:generic/Qt5",
+        "bom-ref": "native/Qt5@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "GTSAM",
+        "version": "unspecified",
+        "purl": "pkg:generic/GTSAM",
+        "bom-ref": "native/GTSAM@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "rostest",
+        "version": "unspecified",
+        "purl": "pkg:generic/rostest",
+        "bom-ref": "native/rostest@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Boost",
+        "version": "unspecified",
+        "purl": "pkg:generic/Boost",
+        "bom-ref": "native/Boost@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "OpenCV",
+        "version": "unspecified",
+        "purl": "pkg:generic/OpenCV",
+        "bom-ref": "native/OpenCV@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Eigen3",
+        "version": "unspecified",
+        "purl": "pkg:generic/Eigen3",
+        "bom-ref": "native/Eigen3@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Ceres",
+        "version": "unspecified",
+        "purl": "pkg:generic/Ceres",
+        "bom-ref": "native/Ceres@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "gazebo",
+        "version": "unspecified",
+        "purl": "pkg:generic/gazebo",
+        "bom-ref": "native/gazebo@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "JsonCpp",
+        "version": "unspecified",
+        "purl": "pkg:generic/JsonCpp",
+        "bom-ref": "native/JsonCpp@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Luajit20",
+        "version": "unspecified",
+        "purl": "pkg:generic/Luajit20",
+        "bom-ref": "native/Luajit20@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "PCL",
+        "version": "unspecified",
+        "purl": "pkg:generic/PCL",
+        "bom-ref": "native/PCL@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "GUROBI",
+        "version": "unspecified",
+        "purl": "pkg:generic/GUROBI",
+        "bom-ref": "native/GUROBI@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "IntelMKL",
+        "version": "unspecified",
+        "purl": "pkg:generic/IntelMKL",
+        "bom-ref": "native/IntelMKL@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "JPS3D",
+        "version": "unspecified",
+        "purl": "pkg:generic/JPS3D",
+        "bom-ref": "native/JPS3D@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "DecompUtil",
+        "version": "unspecified",
+        "purl": "pkg:generic/DecompUtil",
+        "bom-ref": "native/DecompUtil@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Octomap",
+        "version": "unspecified",
+        "purl": "pkg:generic/Octomap",
+        "bom-ref": "native/Octomap@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "cmake_modules",
+        "version": "unspecified",
+        "purl": "pkg:generic/cmake_modules",
+        "bom-ref": "native/cmake_modules@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "OpenCV4WithXFeatures",
+        "version": "unspecified",
+        "purl": "pkg:generic/OpenCV4WithXFeatures",
+        "bom-ref": "native/OpenCV4WithXFeatures@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "OpenMVG",
+        "version": "unspecified",
+        "purl": "pkg:generic/OpenMVG",
+        "bom-ref": "native/OpenMVG@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Protobuf",
+        "version": "unspecified",
+        "purl": "pkg:generic/Protobuf",
+        "bom-ref": "native/Protobuf@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "dbow2",
+        "version": "unspecified",
+        "purl": "pkg:generic/dbow2",
+        "bom-ref": "native/dbow2@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Qt5Xml",
+        "version": "unspecified",
+        "purl": "pkg:generic/Qt5Xml",
+        "bom-ref": "native/Qt5Xml@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Qt4",
+        "version": "unspecified",
+        "purl": "pkg:generic/Qt4",
+        "bom-ref": "native/Qt4@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Miro",
+        "version": "unspecified",
+        "purl": "pkg:generic/Miro",
+        "bom-ref": "native/Miro@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "RtiDds",
+        "version": "unspecified",
+        "purl": "pkg:generic/RtiDds",
+        "bom-ref": "native/RtiDds@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Soracore",
+        "version": "unspecified",
+        "purl": "pkg:generic/Soracore",
+        "bom-ref": "native/Soracore@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "royale",
+        "version": "unspecified",
+        "purl": "pkg:generic/royale",
+        "bom-ref": "native/royale@unspecified"
+      }
+    ]
+  },
+  "elapsed_seconds": 507.79
+}

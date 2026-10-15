@@ -1,0 +1,249 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:21d0f8fa-8736-5950-a1ac-9f2083506a22",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T06:35:24Z",
+    "component": {
+      "type": "application",
+      "name": "ASTROBEE",
+      "version": "bf43a42d5f89",
+      "bom-ref": "pkg:generic/anticloud/ASTROBEE@bf43a42d5f89",
+      "purl": "pkg:generic/anticloud/ASTROBEE@bf43a42d5f89",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "bf43a42d5f89bf0679e51ab25e7a9b7800313e9c"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/nasa/astrobee"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "catkin2",
+      "version": "unspecified",
+      "purl": "pkg:generic/catkin2",
+      "bom-ref": "native/catkin2@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "catkin",
+      "version": "unspecified",
+      "purl": "pkg:generic/catkin",
+      "bom-ref": "native/catkin@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pcl_conversions",
+      "version": "unspecified",
+      "purl": "pkg:generic/pcl_conversions",
+      "bom-ref": "native/pcl_conversions@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Qt5",
+      "version": "unspecified",
+      "purl": "pkg:generic/Qt5",
+      "bom-ref": "native/Qt5@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "GTSAM",
+      "version": "unspecified",
+      "purl": "pkg:generic/GTSAM",
+      "bom-ref": "native/GTSAM@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rostest",
+      "version": "unspecified",
+      "purl": "pkg:generic/rostest",
+      "bom-ref": "native/rostest@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Boost",
+      "version": "unspecified",
+      "purl": "pkg:generic/Boost",
+      "bom-ref": "native/Boost@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "OpenCV",
+      "version": "unspecified",
+      "purl": "pkg:generic/OpenCV",
+      "bom-ref": "native/OpenCV@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Eigen3",
+      "version": "unspecified",
+      "purl": "pkg:generic/Eigen3",
+      "bom-ref": "native/Eigen3@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Ceres",
+      "version": "unspecified",
+      "purl": "pkg:generic/Ceres",
+      "bom-ref": "native/Ceres@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "gazebo",
+      "version": "unspecified",
+      "purl": "pkg:generic/gazebo",
+      "bom-ref": "native/gazebo@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "JsonCpp",
+      "version": "unspecified",
+      "purl": "pkg:generic/JsonCpp",
+      "bom-ref": "native/JsonCpp@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Luajit20",
+      "version": "unspecified",
+      "purl": "pkg:generic/Luajit20",
+      "bom-ref": "native/Luajit20@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "PCL",
+      "version": "unspecified",
+      "purl": "pkg:generic/PCL",
+      "bom-ref": "native/PCL@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "GUROBI",
+      "version": "unspecified",
+      "purl": "pkg:generic/GUROBI",
+      "bom-ref": "native/GUROBI@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "IntelMKL",
+      "version": "unspecified",
+      "purl": "pkg:generic/IntelMKL",
+      "bom-ref": "native/IntelMKL@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "JPS3D",
+      "version": "unspecified",
+      "purl": "pkg:generic/JPS3D",
+      "bom-ref": "native/JPS3D@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "DecompUtil",
+      "version": "unspecified",
+      "purl": "pkg:generic/DecompUtil",
+      "bom-ref": "native/DecompUtil@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Octomap",
+      "version": "unspecified",
+      "purl": "pkg:generic/Octomap",
+      "bom-ref": "native/Octomap@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "cmake_modules",
+      "version": "unspecified",
+      "purl": "pkg:generic/cmake_modules",
+      "bom-ref": "native/cmake_modules@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "OpenCV4WithXFeatures",
+      "version": "unspecified",
+      "purl": "pkg:generic/OpenCV4WithXFeatures",
+      "bom-ref": "native/OpenCV4WithXFeatures@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "OpenMVG",
+      "version": "unspecified",
+      "purl": "pkg:generic/OpenMVG",
+      "bom-ref": "native/OpenMVG@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Protobuf",
+      "version": "unspecified",
+      "purl": "pkg:generic/Protobuf",
+      "bom-ref": "native/Protobuf@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "dbow2",
+      "version": "unspecified",
+      "purl": "pkg:generic/dbow2",
+      "bom-ref": "native/dbow2@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Qt5Xml",
+      "version": "unspecified",
+      "purl": "pkg:generic/Qt5Xml",
+      "bom-ref": "native/Qt5Xml@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Qt4",
+      "version": "unspecified",
+      "purl": "pkg:generic/Qt4",
+      "bom-ref": "native/Qt4@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Miro",
+      "version": "unspecified",
+      "purl": "pkg:generic/Miro",
+      "bom-ref": "native/Miro@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "RtiDds",
+      "version": "unspecified",
+      "purl": "pkg:generic/RtiDds",
+      "bom-ref": "native/RtiDds@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Soracore",
+      "version": "unspecified",
+      "purl": "pkg:generic/Soracore",
+      "bom-ref": "native/Soracore@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "royale",
+      "version": "unspecified",
+      "purl": "pkg:generic/royale",
+      "bom-ref": "native/royale@unspecified"
+    }
+  ]
+}
